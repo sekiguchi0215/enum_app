@@ -1,0 +1,13 @@
+<%= form_with model: @post, loacle: true do |f| %>
+  <div>
+    <%= f.label :genre %>
+    <%= f.select :genre, Post.genres.keys %>
+  </div>
+  <div>
+    <%= f.label :content %>
+    <%= f.text_area :content %>
+  </div>
+  <div>
+    <%= f.submit "送信" %>
+  </div>
+<% end %>
