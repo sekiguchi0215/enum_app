@@ -1,0 +1,10 @@
+ja:
+  enums:
+    post:
+      genre:
+        others: "その他"
+        html: "HTML"
+        css: "CSS"
+        js: "Javascript"
+        ruby: "Ruby"
+        rails: "Ruby on Rails"
