@@ -1,7 +1,7 @@
 <%= form_with model: @post, loacle: true do |f| %>
   <div>
     <%= f.label :genre %>
-    <%= f.select :genre, Post.genres.keys %>
+    <%= f.select :genre, Post.genres_i18n.invert %>
   </div>
   <div>
     <%= f.label :content %>
